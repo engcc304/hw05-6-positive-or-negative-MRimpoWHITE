@@ -16,3 +16,29 @@
         Negative
 
 */
+
+
+#include<stdio.h>
+
+int main(){
+
+    int ip;
+
+    printf("Input :\n");
+    scanf("%d" , &ip);
+
+    if (ip <= -1)
+    {
+       printf("Negative");
+    }
+    else if (ip == 0)
+    {
+        printf("Zero");
+    }
+    else{
+        printf("Positive");
+    }
+    
+
+    return 0;
+}
